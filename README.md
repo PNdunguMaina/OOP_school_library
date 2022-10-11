@@ -1,56 +1,36 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# OOP_school_library
 
-> Description the project.
-
+> In this project, OOP(Object Oriented Programming) is implemented to build a simple library app that records what books are in the library and who borrows them. The app allows adding of new students or teachers, adding new books, and saving who borrowed which book and when.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- **Languages:** Ruby
+- **Tools & Methods:** Git, GitHub, TDD, Chrome Dev Tools
+- **Technology used:** RuboCop
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
+
+- Code editor
+- Computer
+- Internet
 
 ### Setup
 
-### Install
+### Clone this repository
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- $ \_git clone https://github.com/PNdunguMaina/OOP_school_library.git
+- $ _cd OOP_school_library_
 
 ## Authors
 
-👤 **Author1**
+👤 **Patrick Maina**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@PNdunguMaina](https://github.com/PNdunguMaina)
+- LinkedIn: [Patrick Maina](https://www.linkedin.com/in/pndungumaina/)
 
 ## 🤝 Contributing
 
