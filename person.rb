@@ -3,7 +3,7 @@ require './nameable'
 class Person < Nameable
   # getter and accessor methods
   attr_reader :id
-  attr_accessor :name, :age
+  attr_accessor :name, :age, :rentals
 
   # constructor method
   def initialize(age, name = 'unknown', parent_permission: true)
@@ -12,6 +12,7 @@ class Person < Nameable
     @name = name
     @age = age
     @parent_permission = parent_permission
+    @rentals = []
   end
 
   # public method
@@ -22,6 +23,10 @@ class Person < Nameable
   # concrete components that provides default implementations of the method
   def correct_name
     @name
+  end
+
+  def add_rental(book, date)
+    Rental.new(date, self, book)
   end
 
   private
