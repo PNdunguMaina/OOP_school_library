@@ -2,7 +2,7 @@ require './nameable'
 
 class Person < Nameable
   # getter and accessor methods
-  attr_reader :id
+  attr_reader :id, :rentals
   attr_accessor :name, :age
 
   # constructor method
@@ -12,6 +12,7 @@ class Person < Nameable
     @name = name
     @age = age
     @parent_permission = parent_permission
+    @rentals = []
   end
 
   # public method
