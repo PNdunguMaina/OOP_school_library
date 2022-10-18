@@ -4,6 +4,7 @@ require_relative './person'
 require_relative './student'
 require_relative './teacher'
 require_relative './rental'
+require_relative './print_menu'
 
 class App
   attr_accessor :books, :persons, :rentals
@@ -18,7 +19,8 @@ class App
     puts 'Welcome to School Library App!'
 
     loop do
-      print_menu
+      menu = PrintMenu.new
+      menu.print_menu
 
       print 'Enter your option:  '
       option = gets.chomp
@@ -30,21 +32,6 @@ class App
 
       execute(option)
     end
-  end
-
-  def print_menu
-    menu = '...........................................................
-
-Please choose an option by entering a number:
-1 - list all books
-2 - list all people
-3 - create a person
-4 - create a book
-5 - create a rental
-6 - list all rentals for a given person id
-7 - exit'
-
-    puts menu
   end
 
   def execute(option)
